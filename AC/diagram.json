@@ -1,0 +1,51 @@
+{
+  "version": 1,
+  "author": "Evandro Wagencknecht",
+  "editor": "wokwi",
+  "parts": [
+    { "type": "board-esp32-devkit-c-v4", "id": "esp", "top": 28.8, "left": -81.56, "attrs": {} },
+    {
+      "type": "wokwi-ili9341",
+      "id": "lcd1",
+      "top": -119.9,
+      "left": 116.4,
+      "rotate": 90,
+      "attrs": { "width": "240", "height": "320" }
+    },
+    {
+      "type": "wokwi-dht22",
+      "id": "dht1",
+      "top": -143.7,
+      "left": -149.4,
+      "attrs": { "temperature": "25", "humidity": "73" }
+    },
+    {
+      "type": "wokwi-pir-motion-sensor",
+      "id": "pir1",
+      "top": -120.8,
+      "left": -84.18,
+      "attrs": {}
+    },
+    { "type": "wokwi-led", "id": "led1", "top": -70.8, "left": 23, "attrs": { "color": "cyan" } }
+  ],
+  "connections": [
+    [ "esp:TX", "$serialMonitor:RX", "", [] ],
+    [ "esp:RX", "$serialMonitor:TX", "", [] ],
+    [ "dht1:VCC", "esp:5V", "red", [ "v19.2", "h57.45" ] ],
+    [ "dht1:GND", "esp:GND.1", "black", [ "v0" ] ],
+    [ "dht1:SDA", "esp:15", "yellow", [ "v48", "h172.9", "v182.4" ] ],
+    [ "pir1:VCC", "esp:3V3", "red", [ "v28.8", "h-67.2", "v57.6", "h9.6" ] ],
+    [ "pir1:GND", "esp:GND.1", "black", [ "v38.4", "h-77.06", "v172.8" ] ],
+    [ "pir1:OUT", "esp:13", "orange", [ "v9.6", "h-57.74", "v211.2" ] ],
+    [ "esp:14", "led1:A", "red", [ "h-47.85", "v-172.8", "h172.8", "v-9.6" ] ],
+    [ "led1:C", "esp:GND.1", "black", [ "v38.4", "h-143.6", "v172.8" ] ],
+    [ "lcd1:VCC", "esp:5V", "red", [ "h-182.4", "v28.8", "h38.25" ] ],
+    [ "lcd1:GND", "esp:GND.1", "black", [ "h-67.2", "v13.7", "h-134.4", "v168.7" ] ],
+    [ "esp:4", "lcd1:RST", "magenta", [ "h9.6", "v-153.6", "h36.9" ] ],
+    [ "esp:2", "lcd1:D/C", "#8f4814", [ "h19.2", "v-167.3" ] ],
+    [ "esp:23", "lcd1:MOSI", "yellow", [ "h9.6", "v-28.8", "h36.9" ] ],
+    [ "esp:18", "lcd1:SCK", "blue", [ "h19.2", "v-86.4", "h27.3" ] ],
+    [ "lcd1:CS", "esp:5", "purple", [ "h-17.7", "v109.7", "h-1.5", "v24.7" ] ]
+  ],
+  "dependencies": {}
+}
