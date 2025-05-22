@@ -6,16 +6,16 @@ Projeto de automação com ESP32 que realiza a leitura de sensores de **temperat
 
 ### Interface no ThingSpeak
 
-![Gráficos ThingSpeak](![grafico_thingspeak](https://github.com/user-attachments/assets/ca1e1a0b-af4a-4863-b82c-721bad4a7fa6)
+![Gráficos ThingSpeak](![grafico_thingspeak](./grafico_thingspeak.png)
 )
 
 ### Circuito no Simulador
 
-![Circuito completo no simulador](./Captura%20de%20tela%202025-05-22%20202219.png)
+![Circuito completo no simulador](./simulador_circuito.png)
 
 ### Display TFT com status do sistema
 
-![Display TFT](./Captura%20de%20tela%202025-05-22%20202255.png)
+![Display TFT](./display_tft_status.png)
 
 ---
 
