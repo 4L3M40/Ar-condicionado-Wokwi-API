@@ -103,7 +103,5 @@ Os dados são enviados para os seguintes campos no ThingSpeak:
 **Evandro**  
 Jaraguá do Sul - SC  
 Estudante de Desenvolvimento de Sistemas  
-🎮 Xbox | 🚗 Apaixonado por carros | 🎯 Foco: Casa top com área de festa com piscina 😎
 
----
 
