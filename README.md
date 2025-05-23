@@ -10,7 +10,7 @@ Projeto de automação com ESP32 que realiza a leitura de sensores de **temperat
 
 ### Circuito no Simulador
 
-![Circuito completo no simulador](./simulador_circuito.png)
+![Image](https://github.com/user-attachments/assets/1f89c99c-f418-444b-97fb-35c14871f981)
 
 ### Display TFT com status do sistema
 
