@@ -85,7 +85,7 @@ Os dados são enviados para os seguintes campos no ThingSpeak:
 
 | Temperatura | Umidade | Presença | Status AC |
 |-------------|---------|----------|-----------|
-| ![Temp](./Captura%20de%20tela%202025-05-22%20202135.png) | ![Umid](./Captura%20de%20tela%202025-05-22%20202135.png) | ![Presença](./Captura%20de%20tela%202025-05-22%20202135.png) | ![Status](./Captura%20de%20tela%202025-05-22%20202135.png) |
+| > ![Image](https://github.com/user-attachments/assets/c4e3abd2-f32f-4f34-b19d-6797ed9b9cfc) | > ![Image](https://github.com/user-attachments/assets/3fea9865-0364-42e5-b35c-717d88572673) | ![Presença](./Captura%20de%20tela%202025-05-22%20202135.png) | ![Status](./Captura%20de%20tela%202025-05-22%20202135.png) |
 
 ---
 
