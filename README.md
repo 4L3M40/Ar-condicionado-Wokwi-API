@@ -14,7 +14,7 @@ Projeto de automação com ESP32 que realiza a leitura de sensores de **temperat
 
 ### Display TFT com status do sistema
 
-![Display TFT](./display_tft_status.png)
+![Image](https://github.com/user-attachments/assets/c8b7ceac-8a2e-4a15-b423-afc21710da95)
 
 ---
 
