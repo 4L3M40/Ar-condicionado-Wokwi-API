@@ -2,19 +2,18 @@
 
 Projeto de automação com ESP32 que realiza a leitura de sensores de **temperatura**, **umidade** e **presença**, controla o status do **ar-condicionado** e envia os dados para o **ThingSpeak**, além de exibir as informações em um display LCD/I2C ou TFT.
 
+---
+
 ## 📷 Imagens do Projeto
 
 ### Interface no ThingSpeak
-
-> ![Image](https://github.com/user-attachments/assets/e4c093b6-a6bd-4d96-b505-a2e91e74f013)
+![Interface no ThingSpeak](https://github.com/user-attachments/assets/e4c093b6-a6bd-4d96-b505-a2e91e74f013)
 
 ### Circuito no Simulador
-
-![Image](https://github.com/user-attachments/assets/1f89c99c-f418-444b-97fb-35c14871f981)
+![Circuito Simulado](https://github.com/user-attachments/assets/1f89c99c-f418-444b-97fb-35c14871f981)
 
 ### Display TFT com status do sistema
-
-![Image](https://github.com/user-attachments/assets/c8b7ceac-8a2e-4a15-b423-afc21710da95)
+![Display TFT](https://github.com/user-attachments/assets/c8b7ceac-8a2e-4a15-b423-afc21710da95)
 
 ---
 
@@ -29,7 +28,7 @@ Projeto de automação com ESP32 que realiza a leitura de sensores de **temperat
 
 ---
 
-## 📶 ThingSpeak - Visualização dos dados
+## 📶 ThingSpeak - Visualização dos Dados
 
 Os dados são enviados para os seguintes campos no ThingSpeak:
 
@@ -40,7 +39,7 @@ Os dados são enviados para os seguintes campos no ThingSpeak:
 
 ---
 
-## 🛠️ Componentes usados
+## 🛠️ Componentes Usados
 
 - ESP32 DevKit
 - Sensor DHT22
@@ -81,11 +80,12 @@ Os dados são enviados para os seguintes campos no ThingSpeak:
 
 ---
 
-## 📊 Exemplo dos Gráficos
+## 📊 Exemplo dos Gráficos no ThingSpeak
 
 | Temperatura | Umidade | Presença | Status AC |
 |-------------|---------|----------|-----------|
-| > ![Image](https://github.com/user-attachments/assets/c4e3abd2-f32f-4f34-b19d-6797ed9b9cfc) | > ![Image](https://github.com/user-attachments/assets/3fea9865-0364-42e5-b35c-717d88572673) |> ![Image](https://github.com/user-attachments/assets/53779008-f356-4a4f-a84c-316af0e7874f) | > ![Image](https://github.com/user-attachments/assets/8192d13e-f4de-41ce-8409-2b9959e03d7c) |
+| <img src="https://github.com/user-attachments/assets/c4e3abd2-f32f-4f34-b19d-6797ed9b9cfc" height="120"/> | <img src="https://github.com/user-attachments/assets/3fea9865-0364-42e5-b35c-717d88572673" height="120"/> | <img src="https://github.com/user-attachments/assets/53779008-f356-4a4f-a84c-316af0e7874f" height="120"/> | <img src="https://github.com/user-attachments/assets/8192d13e-f4de-41ce-8409-2b9959e03d7c" height="120"/> |
+
 
 ---
 
@@ -103,5 +103,3 @@ Os dados são enviados para os seguintes campos no ThingSpeak:
 **Evandro**  
 Jaraguá do Sul - SC  
 Estudante de Desenvolvimento de Sistemas  
-
-
